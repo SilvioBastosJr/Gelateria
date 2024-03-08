@@ -1,0 +1,53 @@
+@media(max-width: 436px){
+    .secao-sobre{
+        display: flex;
+        flex-direction: column;
+    }
+    .secao-sobre img{
+        width: 100%;
+    }
+    .secao-sobre p{
+        width: 250px;
+        text-align: center;
+        margin: 20px 0 100px 0;
+    }
+    .container-sobre{
+        margin: 0 auto;
+    }
+    .container-sobre h2{
+        width: 300px;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .container-sobre spam {
+        width: 320px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .secao-sobre{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-sobre{
+        width: 100%;
+    }
+    .secao-sobre img{
+        width: 100%;
+        height: 25%;
+    }
+    .container-sobre h2{
+        margin: 60px 0 0 0;
+        font-size: 28px;
+    }
+    .container-sobre spam {
+        font-size: 20px;
+    }
+    .secao-sobre p{
+        text-align: center;
+        margin: 20px 0 100px 0;
+    }
+}

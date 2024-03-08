@@ -1,0 +1,82 @@
+.secao-gelateria{
+    background-image: url(/public/imagens/banner-sobre.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 36px;
+    margin: 90px 0 0 0;
+}
+spam{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 26px; 
+    margin-bottom: 30px;   
+}
+.secao-texto p{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+.secaoImagens{
+    width: 100%;
+}
+.secaoImagens img{
+    width: 50%;
+    margin-top: 80px;
+}
+.img-amigos{
+    height: 609px;
+}
+footer{
+    margin: 0;
+}
+@media(max-width: 436px) {
+    spam{
+        font-size: 20px;
+    }
+    .secao-texto p{
+        width: 95%;
+    }
+    .secaoImagens img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+    .secaoImagens{
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 768px) {
+    spam{
+        font-size: 22px;
+    }
+    .secao-texto{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .secao-texto p{
+        width: 100%;
+    }
+    .secaoImagens img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+    .secaoImagens{
+        margin-top: 160px;
+    }
+}

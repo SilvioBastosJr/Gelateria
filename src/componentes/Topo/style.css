@@ -1,0 +1,25 @@
+.secao-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-topo{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.link-sobre{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(249, 219, 121);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header img{
+    width: 80px;
+}

@@ -1,0 +1,28 @@
+.secao-sabores{
+    display: flex;
+}
+.img-sabores{
+    width: 50%;
+}
+.container-sabores{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-sabores h2{
+    width: 300px;
+    font-size: 30px;
+    margin: 0;
+}
+.container-sabores p{
+    width: 70%;
+    margin-top: 5px;
+    color: #000;
+    text-align: justify;
+}
+.container-sabores spam{
+    font-weight: bold;
+    margin-bottom: 50px;
+}

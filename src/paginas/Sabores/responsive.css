@@ -1,0 +1,51 @@
+@media(max-width: 436px) {
+    .secao-sabores{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-sabores{
+        width: 100%;
+    }   
+    .container-sabores p{
+        width: 250px;
+        text-align: center;
+        margin: 20px 0 100px 0;
+    }
+    .container-sabores{
+        margin: 0 auto;
+    }
+    .container-sabores h2{
+        width: 300px;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .container-sabores spam {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 768px) {
+    .secao-sabores{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-sabores{
+        width: 100%;
+        height: 25%;
+    }   
+    .container-sabores{
+        width: 100%;
+    }   
+    .container-sabores p{
+        text-align: center;
+        margin: 20px 0 100px 0;
+    }
+    .container-sabores h2{
+        margin: 60px 0 0 0;
+        font-size: 28px;
+    }
+    .container-sabores spam {
+        font-size: 20px;
+    }
+}

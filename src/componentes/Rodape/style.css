@@ -1,0 +1,22 @@
+footer{
+    background-color: #000;    
+}
+.container-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 5px;
+}
+h3, p{
+    color: #fff;
+}
+img{
+    width: 100px;
+}
+.container-rodape p{
+    width: 100%;
+}

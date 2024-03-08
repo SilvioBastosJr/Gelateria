@@ -1,0 +1,28 @@
+.secao-sobre{
+    display: flex;
+}
+.container-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.container-sobre h2{
+    width: 300px;
+    font-size: 30px;
+    margin: 0;
+}
+.secao-sobre img{
+    width: 50%;
+}
+.secao-sobre p{
+    width: 70%;
+    padding-top: 5px;
+    text-align: justify;
+    color: #000;
+}
+.container-sobre spam{
+    font-weight: bold;
+    margin-bottom: 50px;
+}

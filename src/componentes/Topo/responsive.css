@@ -1,0 +1,15 @@
+@media(max-width: 436px) {
+    .secao-topo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    nav{
+        width: 80%;
+        text-align: center;
+        border-top: 2px solid rgb(128, 128, 128);
+        padding-top: 15px;
+    }
+}
