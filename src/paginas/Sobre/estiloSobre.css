@@ -27,7 +27,7 @@ spam{
     margin-bottom: 20px;
 }
 .secaoImagens{
-    width: 100%;
+    display: flex;
 }
 .secaoImagens img{
     width: 50%;
@@ -77,6 +77,8 @@ footer{
         margin: 0;
     }
     .secaoImagens{
+        display: flex;
+        flex-direction: column;
         margin-top: 160px;
     }
 }
